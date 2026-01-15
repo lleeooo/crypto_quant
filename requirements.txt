@@ -1,0 +1,15 @@
+# 核心依赖
+ccxt>=4.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 数据处理
+pyarrow>=12.0.0  # Parquet支持
+
+# 可视化
+matplotlib>=3.7.0
+
+# 可选依赖
+# python-dotenv>=1.0.0  # 环境变量管理
+# ta-lib  # 技术分析库 (需要单独安装)
+
