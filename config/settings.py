@@ -5,15 +5,23 @@ from dataclasses import dataclass, field
 from typing import Dict, Optional
 import os
 
+# 尝试加载 .env 文件
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv 未安装，跳过
+
 
 @dataclass
 class ExchangeConfig:
     """交易所配置"""
     name: str = "okx"
+    # 在这里填入你的OKX API密钥，或通过环境变量设置
     api_key: str = ""
     secret: str = ""
-    password: str = ""  # OKX需要
-    sandbox: bool = True  # 沙盒模式
+    password: str = ""  # ⚠️ 请填入你在OKX创建API时设置的Passphrase
+    sandbox: bool = False  # True=模拟盘, False=实盘
     
 
 @dataclass
@@ -102,19 +110,35 @@ class Config:
     
     @classmethod
     def from_env(cls) -> 'Config':
-        """从环境变量加载配置"""
+        """从环境变量加载配置（环境变量优先，否则使用默认值）"""
         config = cls()
         
-        # 交易所配置
-        config.exchange.api_key = os.getenv('EXCHANGE_API_KEY', '')
-        config.exchange.secret = os.getenv('EXCHANGE_SECRET', '')
-        config.exchange.password = os.getenv('EXCHANGE_PASSWORD', '')
+        # 交易所配置 - 环境变量优先，否则使用dataclass默认值
+        env_api_key = os.getenv('EXCHANGE_API_KEY')
+        env_secret = os.getenv('EXCHANGE_SECRET')
+        env_password = os.getenv('EXCHANGE_PASSWORD')
+        env_sandbox = os.getenv('EXCHANGE_SANDBOX')
+        
+        if env_api_key:
+            config.exchange.api_key = env_api_key
+        if env_secret:
+            config.exchange.secret = env_secret
+        if env_password:
+            config.exchange.password = env_password
+        if env_sandbox is not None:
+            config.exchange.sandbox = env_sandbox.lower() in ('true', '1', 'yes')
         
         # 代理配置
-        proxy_enabled = os.getenv('PROXY_ENABLED', 'true').lower() == 'true'
-        config.proxy.enabled = proxy_enabled
-        config.proxy.http = os.getenv('HTTP_PROXY', 'http://127.0.0.1:7890')
-        config.proxy.https = os.getenv('HTTPS_PROXY', 'http://127.0.0.1:7890')
+        proxy_enabled = os.getenv('PROXY_ENABLED')
+        if proxy_enabled is not None:
+            config.proxy.enabled = proxy_enabled.lower() == 'true'
+        
+        env_http_proxy = os.getenv('HTTP_PROXY')
+        env_https_proxy = os.getenv('HTTPS_PROXY')
+        if env_http_proxy:
+            config.proxy.http = env_http_proxy
+        if env_https_proxy:
+            config.proxy.https = env_https_proxy
         
         return config
 

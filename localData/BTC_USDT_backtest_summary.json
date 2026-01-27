@@ -1,0 +1,1540 @@
+{
+  "export_time": "2026-01-27 15:22:14",
+  "symbol": "BTC/USDT",
+  "initial_capital": 1000,
+  "fee_rate": 0.001,
+  "timeframes": {
+    "30m": {
+      "data_range": {
+        "start": "2025-12-16 15:30:00",
+        "end": "2026-01-27 07:00:00",
+        "bars": 2000
+      },
+      "price_stats": {
+        "open": 87164.9,
+        "close": 88494.8,
+        "high": 97925.4,
+        "low": 84456.2,
+        "price_change_pct": 1.5257288197428194,
+        "avg_volume": 106.00987499741501
+      },
+      "strategies": {
+        "原版策略": {
+          "performance": {
+            "total_return_pct": -6.39,
+            "annual_return_pct": -25.13,
+            "max_drawdown_pct": 7.05,
+            "sharpe_ratio": -2.96,
+            "sortino_ratio": -0.88,
+            "calmar_ratio": -3.56,
+            "profit_factor": 0.36
+          },
+          "trades": {
+            "total_trades": 14,
+            "winning_trades": 6,
+            "losing_trades": 8,
+            "win_rate_pct": 42.86,
+            "avg_win": 4.82,
+            "avg_loss": -9.91,
+            "profit_loss_ratio": 0.49,
+            "expectancy": -3.6
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 936.06,
+            "total_return": -63.94
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-12-18 14:30:00",
+              "exit_time": "2025-12-18 17:00:00",
+              "direction": "多",
+              "entry_price": 88396.08,
+              "exit_price": 86893.44,
+              "pnl": -17.98,
+              "pnl_pct": -1.8,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-23 05:30:00",
+              "exit_time": "2025-12-23 14:30:00",
+              "direction": "空",
+              "entry_price": 87719.32,
+              "exit_price": 86710.85,
+              "pnl": 10.31,
+              "pnl_pct": 1.05,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-25 16:30:00",
+              "exit_time": "2025-12-25 17:00:00",
+              "direction": "多",
+              "entry_price": 88126.64,
+              "exit_price": 88173.31,
+              "pnl": -0.47,
+              "pnl_pct": -0.05,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-26 01:00:00",
+              "exit_time": "2025-12-26 02:00:00",
+              "direction": "空",
+              "entry_price": 87306.33,
+              "exit_price": 88083.7,
+              "pnl": -9.8,
+              "pnl_pct": -0.99,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-28 02:30:00",
+              "exit_time": "2025-12-28 20:00:00",
+              "direction": "多",
+              "entry_price": 87851.9,
+              "exit_price": 87436.13,
+              "pnl": -5.6,
+              "pnl_pct": -0.57,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-29 14:30:00",
+              "exit_time": "2025-12-30 14:00:00",
+              "direction": "空",
+              "entry_price": 87387.18,
+              "exit_price": 88170.36,
+              "pnl": -9.69,
+              "pnl_pct": -1.0,
+              "exit_reason": "signal"
+            },
+            {
+              "entry_time": "2025-12-30 14:00:00",
+              "exit_time": "2025-12-30 14:30:00",
+              "direction": "多",
+              "entry_price": 88170.36,
+              "exit_price": 88854.21,
+              "pnl": 6.48,
+              "pnl_pct": 0.67,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-06 18:00:00",
+              "exit_time": "2026-01-06 18:30:00",
+              "direction": "空",
+              "entry_price": 91975.59,
+              "exit_price": 91819.41,
+              "pnl": 0.68,
+              "pnl_pct": 0.07,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-12 03:30:00",
+              "exit_time": "2026-01-12 04:00:00",
+              "direction": "多",
+              "entry_price": 91851.3,
+              "exit_price": 92033.44,
+              "pnl": 0.95,
+              "pnl_pct": 0.1,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-12 14:00:00",
+              "exit_time": "2026-01-12 14:30:00",
+              "direction": "空",
+              "entry_price": 90245.25,
+              "exit_price": 91142.38,
+              "pnl": -10.58,
+              "pnl_pct": -1.1,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-13 09:00:00",
+              "exit_time": "2026-01-13 16:00:00",
+              "direction": "多",
+              "entry_price": 92592.27,
+              "exit_price": 93449.12,
+              "pnl": 7.87,
+              "pnl_pct": 0.82,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-16 15:30:00",
+              "exit_time": "2026-01-16 20:30:00",
+              "direction": "空",
+              "entry_price": 94542.01,
+              "exit_price": 95456.31,
+              "pnl": -10.27,
+              "pnl_pct": -1.07,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-23 18:30:00",
+              "exit_time": "2026-01-23 20:30:00",
+              "direction": "多",
+              "entry_price": 90569.56,
+              "exit_price": 89236.61,
+              "pnl": -14.92,
+              "pnl_pct": -1.57,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-24 16:00:00",
+              "exit_time": "2026-01-25 06:00:00",
+              "direction": "空",
+              "entry_price": 89223.07,
+              "exit_price": 88884.52,
+              "pnl": 2.61,
+              "pnl_pct": 0.28,
+              "exit_reason": "take_profit"
+            }
+          ]
+        },
+        "移动止损策略": {
+          "performance": {
+            "total_return_pct": -6.83,
+            "annual_return_pct": -26.65,
+            "max_drawdown_pct": 7.56,
+            "sharpe_ratio": -2.93,
+            "sortino_ratio": -1.0,
+            "calmar_ratio": -3.52,
+            "profit_factor": 0.38
+          },
+          "trades": {
+            "total_trades": 14,
+            "winning_trades": 4,
+            "losing_trades": 10,
+            "win_rate_pct": 28.57,
+            "avg_win": 8.41,
+            "avg_loss": -8.85,
+            "profit_loss_ratio": 0.95,
+            "expectancy": -3.92
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 931.68,
+            "total_return": -68.32
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-12-18 14:30:00",
+              "exit_time": "2025-12-18 17:00:00",
+              "direction": "多",
+              "entry_price": 88396.08,
+              "exit_price": 86893.44,
+              "pnl": -17.98,
+              "pnl_pct": -1.8,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-23 02:30:00",
+              "exit_time": "2025-12-23 14:30:00",
+              "direction": "空",
+              "entry_price": 88160.9,
+              "exit_price": 86865.25,
+              "pnl": 13.45,
+              "pnl_pct": 1.37,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-25 15:00:00",
+              "exit_time": "2025-12-25 22:30:00",
+              "direction": "多",
+              "entry_price": 88119.44,
+              "exit_price": 87557.76,
+              "pnl": -7.32,
+              "pnl_pct": -0.74,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-26 01:00:00",
+              "exit_time": "2025-12-26 02:00:00",
+              "direction": "空",
+              "entry_price": 87306.33,
+              "exit_price": 88083.7,
+              "pnl": -9.77,
+              "pnl_pct": -0.99,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-28 02:30:00",
+              "exit_time": "2025-12-28 20:00:00",
+              "direction": "多",
+              "entry_price": 87851.9,
+              "exit_price": 87436.13,
+              "pnl": -5.58,
+              "pnl_pct": -0.57,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-29 14:30:00",
+              "exit_time": "2025-12-30 14:00:00",
+              "direction": "空",
+              "entry_price": 87387.18,
+              "exit_price": 88170.36,
+              "pnl": -9.65,
+              "pnl_pct": -1.0,
+              "exit_reason": "signal"
+            },
+            {
+              "entry_time": "2025-12-30 14:00:00",
+              "exit_time": "2025-12-30 15:00:00",
+              "direction": "多",
+              "entry_price": 88170.36,
+              "exit_price": 88982.87,
+              "pnl": 7.86,
+              "pnl_pct": 0.82,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-06 18:00:00",
+              "exit_time": "2026-01-06 18:30:00",
+              "direction": "空",
+              "entry_price": 91975.59,
+              "exit_price": 92018.0,
+              "pnl": -1.41,
+              "pnl_pct": -0.15,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-11 15:00:00",
+              "exit_time": "2026-01-11 15:30:00",
+              "direction": "多",
+              "entry_price": 91011.58,
+              "exit_price": 90933.12,
+              "pnl": -1.79,
+              "pnl_pct": -0.19,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-12 14:00:00",
+              "exit_time": "2026-01-12 14:30:00",
+              "direction": "空",
+              "entry_price": 90245.25,
+              "exit_price": 91142.38,
+              "pnl": -10.5,
+              "pnl_pct": -1.1,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-13 08:00:00",
+              "exit_time": "2026-01-13 15:30:00",
+              "direction": "多",
+              "entry_price": 92005.78,
+              "exit_price": 92973.42,
+              "pnl": 9.01,
+              "pnl_pct": 0.95,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-16 15:00:00",
+              "exit_time": "2026-01-16 20:30:00",
+              "direction": "空",
+              "entry_price": 94675.84,
+              "exit_price": 95553.17,
+              "pnl": -9.82,
+              "pnl_pct": -1.03,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-23 17:30:00",
+              "exit_time": "2026-01-23 20:30:00",
+              "direction": "多",
+              "entry_price": 90657.31,
+              "exit_price": 89339.31,
+              "pnl": -14.67,
+              "pnl_pct": -1.55,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-24 16:00:00",
+              "exit_time": "2026-01-25 06:00:00",
+              "direction": "空",
+              "entry_price": 89223.07,
+              "exit_price": 88813.22,
+              "pnl": 3.34,
+              "pnl_pct": 0.36,
+              "exit_reason": "take_profit"
+            }
+          ]
+        }
+      }
+    },
+    "1h": {
+      "data_range": {
+        "start": "2025-11-05 00:00:00",
+        "end": "2026-01-27 07:00:00",
+        "bars": 2000
+      },
+      "price_stats": {
+        "open": 101491.5,
+        "close": 88440.0,
+        "high": 107500.0,
+        "low": 80636.3,
+        "price_change_pct": -12.859697610144691,
+        "avg_volume": 270.60445129158
+      },
+      "strategies": {
+        "原版策略": {
+          "performance": {
+            "total_return_pct": 0.65,
+            "annual_return_pct": 2.9,
+            "max_drawdown_pct": 7.06,
+            "sharpe_ratio": 0.05,
+            "sortino_ratio": 0.02,
+            "calmar_ratio": 0.41,
+            "profit_factor": 1.2
+          },
+          "trades": {
+            "total_trades": 12,
+            "winning_trades": 7,
+            "losing_trades": 5,
+            "win_rate_pct": 58.33,
+            "avg_win": 15.96,
+            "avg_loss": -18.68,
+            "profit_loss_ratio": 0.85,
+            "expectancy": 1.53
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 1006.55,
+            "total_return": 6.55
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-11-10 08:00:00",
+              "exit_time": "2025-11-11 13:00:00",
+              "direction": "多",
+              "entry_price": 106031.49,
+              "exit_price": 104297.06,
+              "pnl": -17.34,
+              "pnl_pct": -1.73,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-12 17:00:00",
+              "exit_time": "2025-11-13 07:00:00",
+              "direction": "空",
+              "entry_price": 101699.12,
+              "exit_price": 103762.83,
+              "pnl": -20.92,
+              "pnl_pct": -2.13,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-23 16:00:00",
+              "exit_time": "2025-11-24 18:00:00",
+              "direction": "多",
+              "entry_price": 86733.24,
+              "exit_price": 88612.78,
+              "pnl": 19.82,
+              "pnl_pct": 2.06,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-01 13:00:00",
+              "exit_time": "2025-12-01 15:00:00",
+              "direction": "空",
+              "entry_price": 85942.11,
+              "exit_price": 84077.57,
+              "pnl": 20.27,
+              "pnl_pct": 2.07,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-02 20:00:00",
+              "exit_time": "2025-12-03 05:00:00",
+              "direction": "多",
+              "entry_price": 91079.62,
+              "exit_price": 93573.45,
+              "pnl": 22.22,
+              "pnl_pct": 2.64,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-05 15:00:00",
+              "exit_time": "2025-12-05 16:00:00",
+              "direction": "空",
+              "entry_price": 90410.77,
+              "exit_price": 88501.97,
+              "pnl": 20.52,
+              "pnl_pct": 2.01,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-18 16:00:00",
+              "exit_time": "2025-12-18 17:00:00",
+              "direction": "多",
+              "entry_price": 88058.71,
+              "exit_price": 86043.61,
+              "pnl": -22.63,
+              "pnl_pct": -2.39,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-23 07:00:00",
+              "exit_time": "2025-12-26 02:00:00",
+              "direction": "空",
+              "entry_price": 87535.41,
+              "exit_price": 88951.71,
+              "pnl": -17.46,
+              "pnl_pct": -1.72,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-26 06:00:00",
+              "exit_time": "2025-12-26 14:00:00",
+              "direction": "多",
+              "entry_price": 89166.66,
+              "exit_price": 87906.94,
+              "pnl": -15.06,
+              "pnl_pct": -1.51,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-07 16:00:00",
+              "exit_time": "2026-01-08 14:00:00",
+              "direction": "空",
+              "entry_price": 91213.37,
+              "exit_price": 89571.32,
+              "pnl": 16.69,
+              "pnl_pct": 1.7,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-12 03:00:00",
+              "exit_time": "2026-01-12 04:00:00",
+              "direction": "多",
+              "entry_price": 91851.3,
+              "exit_price": 92078.62,
+              "pnl": 1.47,
+              "pnl_pct": 0.15,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-19 08:00:00",
+              "exit_time": "2026-01-20 04:00:00",
+              "direction": "空",
+              "entry_price": 93211.57,
+              "exit_price": 92113.54,
+              "pnl": 10.76,
+              "pnl_pct": 1.08,
+              "exit_reason": "take_profit"
+            }
+          ]
+        },
+        "移动止损策略": {
+          "performance": {
+            "total_return_pct": -1.29,
+            "annual_return_pct": -5.53,
+            "max_drawdown_pct": 7.2,
+            "sharpe_ratio": -0.39,
+            "sortino_ratio": -0.14,
+            "calmar_ratio": -0.77,
+            "profit_factor": 0.99
+          },
+          "trades": {
+            "total_trades": 12,
+            "winning_trades": 5,
+            "losing_trades": 7,
+            "win_rate_pct": 41.67,
+            "avg_win": 19.76,
+            "avg_loss": -14.3,
+            "profit_loss_ratio": 1.38,
+            "expectancy": -0.1
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 987.1,
+            "total_return": -12.9
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-11-09 14:00:00",
+              "exit_time": "2025-11-09 15:00:00",
+              "direction": "多",
+              "entry_price": 103087.42,
+              "exit_price": 103037.68,
+              "pnl": -1.48,
+              "pnl_pct": -0.15,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-12 17:00:00",
+              "exit_time": "2025-11-13 07:00:00",
+              "direction": "空",
+              "entry_price": 101699.12,
+              "exit_price": 103762.83,
+              "pnl": -21.26,
+              "pnl_pct": -2.13,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-23 16:00:00",
+              "exit_time": "2025-11-24 20:00:00",
+              "direction": "多",
+              "entry_price": 86733.24,
+              "exit_price": 88940.48,
+              "pnl": 23.82,
+              "pnl_pct": 2.44,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-01 13:00:00",
+              "exit_time": "2025-12-02 13:00:00",
+              "direction": "空",
+              "entry_price": 85942.11,
+              "exit_price": 87653.53,
+              "pnl": -20.89,
+              "pnl_pct": -2.09,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-02 20:00:00",
+              "exit_time": "2025-12-03 22:00:00",
+              "direction": "多",
+              "entry_price": 91079.62,
+              "exit_price": 94004.26,
+              "pnl": 25.63,
+              "pnl_pct": 3.11,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-05 15:00:00",
+              "exit_time": "2025-12-05 16:00:00",
+              "direction": "空",
+              "entry_price": 90410.77,
+              "exit_price": 88168.76,
+              "pnl": 23.85,
+              "pnl_pct": 2.38,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-18 16:00:00",
+              "exit_time": "2025-12-18 17:00:00",
+              "direction": "多",
+              "entry_price": 88058.71,
+              "exit_price": 86043.61,
+              "pnl": -22.31,
+              "pnl_pct": -2.39,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-23 07:00:00",
+              "exit_time": "2025-12-26 02:00:00",
+              "direction": "空",
+              "entry_price": 87535.41,
+              "exit_price": 88951.71,
+              "pnl": -17.21,
+              "pnl_pct": -1.72,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-26 02:00:00",
+              "exit_time": "2025-12-26 14:00:00",
+              "direction": "多",
+              "entry_price": 89229.69,
+              "exit_price": 87920.89,
+              "pnl": -15.38,
+              "pnl_pct": -1.57,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-07 15:00:00",
+              "exit_time": "2026-01-08 14:00:00",
+              "direction": "空",
+              "entry_price": 91301.33,
+              "exit_price": 89386.3,
+              "pnl": 19.32,
+              "pnl_pct": 2.0,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-12 03:00:00",
+              "exit_time": "2026-01-12 04:00:00",
+              "direction": "多",
+              "entry_price": 91851.3,
+              "exit_price": 91799.07,
+              "pnl": -1.54,
+              "pnl_pct": -0.16,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-17 22:00:00",
+              "exit_time": "2026-01-18 23:00:00",
+              "direction": "空",
+              "entry_price": 95125.51,
+              "exit_price": 94431.03,
+              "pnl": 6.19,
+              "pnl_pct": 0.63,
+              "exit_reason": "take_profit"
+            }
+          ]
+        }
+      }
+    },
+    "2h": {
+      "data_range": {
+        "start": "2025-08-13 16:00:00",
+        "end": "2026-01-27 06:00:00",
+        "bars": 2000
+      },
+      "price_stats": {
+        "open": 120914.0,
+        "close": 88465.6,
+        "high": 126200.0,
+        "low": 80636.3,
+        "price_change_pct": -26.835932977157313,
+        "avg_volume": 542.6460596864899
+      },
+      "strategies": {
+        "原版策略": {
+          "performance": {
+            "total_return_pct": -8.16,
+            "annual_return_pct": -31.12,
+            "max_drawdown_pct": 13.05,
+            "sharpe_ratio": -1.55,
+            "sortino_ratio": -0.56,
+            "calmar_ratio": -2.38,
+            "profit_factor": 0.59
+          },
+          "trades": {
+            "total_trades": 16,
+            "winning_trades": 8,
+            "losing_trades": 8,
+            "win_rate_pct": 50.0,
+            "avg_win": 12.05,
+            "avg_loss": -20.51,
+            "profit_loss_ratio": 0.59,
+            "expectancy": -4.23
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 918.4,
+            "total_return": -81.6
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-09-05 12:00:00",
+              "exit_time": "2025-09-05 14:00:00",
+              "direction": "多",
+              "entry_price": 113126.13,
+              "exit_price": 110969.65,
+              "pnl": -20.04,
+              "pnl_pct": -2.0,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-09-21 22:00:00",
+              "exit_time": "2025-09-22 00:00:00",
+              "direction": "空",
+              "entry_price": 115178.38,
+              "exit_price": 114326.21,
+              "pnl": 6.27,
+              "pnl_pct": 0.64,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-09-30 06:00:00",
+              "exit_time": "2025-10-01 08:00:00",
+              "direction": "多",
+              "entry_price": 113773.86,
+              "exit_price": 115324.07,
+              "pnl": 12.41,
+              "pnl_pct": 1.26,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-10-14 08:00:00",
+              "exit_time": "2025-10-16 16:00:00",
+              "direction": "空",
+              "entry_price": 111236.35,
+              "exit_price": 107685.28,
+              "pnl": 22.49,
+              "pnl_pct": 3.1,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-10-20 16:00:00",
+              "exit_time": "2025-10-21 04:00:00",
+              "direction": "多",
+              "entry_price": 110347.85,
+              "exit_price": 107830.28,
+              "pnl": -22.17,
+              "pnl_pct": -2.38,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-10-30 04:00:00",
+              "exit_time": "2025-10-30 06:00:00",
+              "direction": "空",
+              "entry_price": 110203.97,
+              "exit_price": 109182.75,
+              "pnl": 5.96,
+              "pnl_pct": 0.83,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-10 14:00:00",
+              "exit_time": "2025-11-10 16:00:00",
+              "direction": "多",
+              "entry_price": 105131.34,
+              "exit_price": 105558.83,
+              "pnl": 2.76,
+              "pnl_pct": 0.31,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-12 18:00:00",
+              "exit_time": "2025-11-13 06:00:00",
+              "direction": "空",
+              "entry_price": 101245.85,
+              "exit_price": 103994.0,
+              "pnl": -21.6,
+              "pnl_pct": -2.82,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-27 10:00:00",
+              "exit_time": "2025-12-01 00:00:00",
+              "direction": "多",
+              "entry_price": 91414.48,
+              "exit_price": 89033.89,
+              "pnl": -21.1,
+              "pnl_pct": -2.7,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-06 06:00:00",
+              "exit_time": "2025-12-07 18:00:00",
+              "direction": "空",
+              "entry_price": 89538.21,
+              "exit_price": 91746.33,
+              "pnl": -20.8,
+              "pnl_pct": -2.57,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-08 08:00:00",
+              "exit_time": "2025-12-08 14:00:00",
+              "direction": "多",
+              "entry_price": 91957.06,
+              "exit_price": 89641.05,
+              "pnl": -20.22,
+              "pnl_pct": -2.62,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-14 12:00:00",
+              "exit_time": "2025-12-14 22:00:00",
+              "direction": "空",
+              "entry_price": 89439.36,
+              "exit_price": 87914.93,
+              "pnl": 14.69,
+              "pnl_pct": 1.61,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-22 08:00:00",
+              "exit_time": "2025-12-22 18:00:00",
+              "direction": "多",
+              "entry_price": 89872.51,
+              "exit_price": 88191.08,
+              "pnl": -18.28,
+              "pnl_pct": -1.97,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-08 10:00:00",
+              "exit_time": "2026-01-12 02:00:00",
+              "direction": "空",
+              "entry_price": 90175.99,
+              "exit_price": 92238.17,
+              "pnl": -19.88,
+              "pnl_pct": -2.39,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-13 16:00:00",
+              "exit_time": "2026-01-13 22:00:00",
+              "direction": "多",
+              "entry_price": 93290.62,
+              "exit_price": 95302.64,
+              "pnl": 18.25,
+              "pnl_pct": 2.05,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-19 08:00:00",
+              "exit_time": "2026-01-20 04:00:00",
+              "direction": "空",
+              "entry_price": 93000.58,
+              "exit_price": 91519.93,
+              "pnl": 13.53,
+              "pnl_pct": 1.49,
+              "exit_reason": "take_profit"
+            }
+          ]
+        },
+        "移动止损策略": {
+          "performance": {
+            "total_return_pct": -2.52,
+            "annual_return_pct": -10.56,
+            "max_drawdown_pct": 9.21,
+            "sharpe_ratio": -0.47,
+            "sortino_ratio": -0.22,
+            "calmar_ratio": -1.15,
+            "profit_factor": 0.95
+          },
+          "trades": {
+            "total_trades": 18,
+            "winning_trades": 8,
+            "losing_trades": 10,
+            "win_rate_pct": 44.44,
+            "avg_win": 19.62,
+            "avg_loss": -16.56,
+            "profit_loss_ratio": 1.18,
+            "expectancy": -0.48
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 974.84,
+            "total_return": -25.16
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-09-05 10:00:00",
+              "exit_time": "2025-09-05 14:00:00",
+              "direction": "多",
+              "entry_price": 112420.28,
+              "exit_price": 110368.7,
+              "pnl": -19.23,
+              "pnl_pct": -1.92,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-09-21 22:00:00",
+              "exit_time": "2025-09-22 04:00:00",
+              "direction": "空",
+              "entry_price": 115178.38,
+              "exit_price": 114164.97,
+              "pnl": 7.65,
+              "pnl_pct": 0.78,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-09-30 06:00:00",
+              "exit_time": "2025-10-01 08:00:00",
+              "direction": "多",
+              "entry_price": 113773.86,
+              "exit_price": 115601.39,
+              "pnl": 14.84,
+              "pnl_pct": 1.5,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-10-10 02:00:00",
+              "exit_time": "2025-10-10 16:00:00",
+              "direction": "空",
+              "entry_price": 120977.28,
+              "exit_price": 117699.83,
+              "pnl": 26.07,
+              "pnl_pct": 2.61,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-10-20 16:00:00",
+              "exit_time": "2025-10-21 04:00:00",
+              "direction": "多",
+              "entry_price": 110347.85,
+              "exit_price": 107830.28,
+              "pnl": -22.34,
+              "pnl_pct": -2.38,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-10-30 04:00:00",
+              "exit_time": "2025-10-30 06:00:00",
+              "direction": "空",
+              "entry_price": 110203.97,
+              "exit_price": 110192.3,
+              "pnl": -0.65,
+              "pnl_pct": -0.09,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-10 14:00:00",
+              "exit_time": "2025-11-10 16:00:00",
+              "direction": "多",
+              "entry_price": 105131.34,
+              "exit_price": 105119.44,
+              "pnl": -1.0,
+              "pnl_pct": -0.11,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-11-12 16:00:00",
+              "exit_time": "2025-11-13 20:00:00",
+              "direction": "空",
+              "entry_price": 101699.12,
+              "exit_price": 98119.16,
+              "pnl": 26.47,
+              "pnl_pct": 3.42,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-11-27 10:00:00",
+              "exit_time": "2025-12-01 00:00:00",
+              "direction": "多",
+              "entry_price": 91414.48,
+              "exit_price": 89033.89,
+              "pnl": -22.08,
+              "pnl_pct": -2.7,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-06 06:00:00",
+              "exit_time": "2025-12-07 18:00:00",
+              "direction": "空",
+              "entry_price": 89538.21,
+              "exit_price": 91746.33,
+              "pnl": -21.77,
+              "pnl_pct": -2.57,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-08 08:00:00",
+              "exit_time": "2025-12-08 14:00:00",
+              "direction": "多",
+              "entry_price": 91957.06,
+              "exit_price": 89641.05,
+              "pnl": -21.16,
+              "pnl_pct": -2.62,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-13 06:00:00",
+              "exit_time": "2025-12-14 22:00:00",
+              "direction": "空",
+              "entry_price": 90284.84,
+              "exit_price": 87775.83,
+              "pnl": 24.98,
+              "pnl_pct": 2.68,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-21 10:00:00",
+              "exit_time": "2025-12-22 12:00:00",
+              "direction": "多",
+              "entry_price": 88654.3,
+              "exit_price": 90471.36,
+              "pnl": 19.1,
+              "pnl_pct": 1.95,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-24 14:00:00",
+              "exit_time": "2025-12-26 02:00:00",
+              "direction": "空",
+              "entry_price": 86999.58,
+              "exit_price": 88831.06,
+              "pnl": -22.02,
+              "pnl_pct": -2.21,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-29 06:00:00",
+              "exit_time": "2025-12-29 08:00:00",
+              "direction": "多",
+              "entry_price": 89657.11,
+              "exit_price": 88426.0,
+              "pnl": -14.37,
+              "pnl_pct": -1.47,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-08 10:00:00",
+              "exit_time": "2026-01-12 02:00:00",
+              "direction": "空",
+              "entry_price": 90175.99,
+              "exit_price": 92238.17,
+              "pnl": -21.01,
+              "pnl_pct": -2.39,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-13 06:00:00",
+              "exit_time": "2026-01-13 18:00:00",
+              "direction": "多",
+              "entry_price": 91995.67,
+              "exit_price": 94132.14,
+              "pnl": 20.84,
+              "pnl_pct": 2.22,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-19 08:00:00",
+              "exit_time": "2026-01-20 06:00:00",
+              "direction": "空",
+              "entry_price": 93000.58,
+              "exit_price": 91257.65,
+              "pnl": 17.03,
+              "pnl_pct": 1.78,
+              "exit_reason": "take_profit"
+            }
+          ]
+        }
+      }
+    },
+    "4h": {
+      "data_range": {
+        "start": "2025-02-28 00:00:00",
+        "end": "2026-01-27 04:00:00",
+        "bars": 2000
+      },
+      "price_stats": {
+        "open": 84717.7,
+        "close": 88498.1,
+        "high": 126200.0,
+        "low": 74501.6,
+        "price_change_pct": 4.46234966246724,
+        "avg_volume": 1170.1766315297652
+      },
+      "strategies": {
+        "原版策略": {
+          "performance": {
+            "total_return_pct": 9.17,
+            "annual_return_pct": 46.88,
+            "max_drawdown_pct": 5.39,
+            "sharpe_ratio": 1.6,
+            "sortino_ratio": 1.07,
+            "calmar_ratio": 8.69,
+            "profit_factor": 1.8
+          },
+          "trades": {
+            "total_trades": 18,
+            "winning_trades": 12,
+            "losing_trades": 6,
+            "win_rate_pct": 66.67,
+            "avg_win": 19.85,
+            "avg_loss": -22.05,
+            "profit_loss_ratio": 0.9,
+            "expectancy": 5.88
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 1091.75,
+            "total_return": 91.75
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-03-24 20:00:00",
+              "exit_time": "2025-03-28 04:00:00",
+              "direction": "多",
+              "entry_price": 87540.45,
+              "exit_price": 85122.81,
+              "pnl": -21.46,
+              "pnl_pct": -2.86,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-03-30 16:00:00",
+              "exit_time": "2025-04-01 12:00:00",
+              "direction": "空",
+              "entry_price": 82508.63,
+              "exit_price": 84864.16,
+              "pnl": -21.02,
+              "pnl_pct": -2.96,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-04-13 04:00:00",
+              "exit_time": "2025-04-22 12:00:00",
+              "direction": "多",
+              "entry_price": 84460.21,
+              "exit_price": 88980.38,
+              "pnl": 22.06,
+              "pnl_pct": 5.25,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-05-30 16:00:00",
+              "exit_time": "2025-06-05 20:00:00",
+              "direction": "空",
+              "entry_price": 104584.58,
+              "exit_price": 100610.04,
+              "pnl": 22.31,
+              "pnl_pct": 3.7,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-06-10 04:00:00",
+              "exit_time": "2025-06-12 12:00:00",
+              "direction": "多",
+              "entry_price": 109266.61,
+              "exit_price": 106669.98,
+              "pnl": -21.7,
+              "pnl_pct": -2.47,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-06-21 20:00:00",
+              "exit_time": "2025-06-22 16:00:00",
+              "direction": "空",
+              "entry_price": 102073.34,
+              "exit_price": 98878.06,
+              "pnl": 22.04,
+              "pnl_pct": 3.03,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-06-25 12:00:00",
+              "exit_time": "2025-07-09 16:00:00",
+              "direction": "多",
+              "entry_price": 107088.12,
+              "exit_price": 110884.02,
+              "pnl": 22.59,
+              "pnl_pct": 3.44,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-08-01 04:00:00",
+              "exit_time": "2025-08-10 00:00:00",
+              "direction": "空",
+              "entry_price": 115022.46,
+              "exit_price": 118084.38,
+              "pnl": -22.04,
+              "pnl_pct": -2.76,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-08-10 00:00:00",
+              "exit_time": "2025-08-11 00:00:00",
+              "direction": "多",
+              "entry_price": 118561.25,
+              "exit_price": 121289.42,
+              "pnl": 21.9,
+              "pnl_pct": 2.2,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-08-18 00:00:00",
+              "exit_time": "2025-08-21 16:00:00",
+              "direction": "空",
+              "entry_price": 115264.64,
+              "exit_price": 112328.83,
+              "pnl": 22.63,
+              "pnl_pct": 2.45,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-09-11 12:00:00",
+              "exit_time": "2025-09-16 20:00:00",
+              "direction": "多",
+              "entry_price": 114243.09,
+              "exit_price": 116869.29,
+              "pnl": 22.83,
+              "pnl_pct": 2.2,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-09-23 04:00:00",
+              "exit_time": "2025-09-25 16:00:00",
+              "direction": "空",
+              "entry_price": 113037.35,
+              "exit_price": 110409.8,
+              "pnl": 23.42,
+              "pnl_pct": 2.23,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-10-27 12:00:00",
+              "exit_time": "2025-10-29 00:00:00",
+              "direction": "多",
+              "entry_price": 115017.28,
+              "exit_price": 112081.04,
+              "pnl": -23.4,
+              "pnl_pct": -2.65,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-10-31 08:00:00",
+              "exit_time": "2025-11-03 12:00:00",
+              "direction": "空",
+              "entry_price": 110373.89,
+              "exit_price": 105605.13,
+              "pnl": 24.33,
+              "pnl_pct": 4.22,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-03 12:00:00",
+              "exit_time": "2025-12-05 16:00:00",
+              "direction": "多",
+              "entry_price": 92426.09,
+              "exit_price": 88584.99,
+              "pnl": -22.69,
+              "pnl_pct": -4.25,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-07 12:00:00",
+              "exit_time": "2025-12-07 16:00:00",
+              "direction": "空",
+              "entry_price": 89510.02,
+              "exit_price": 88852.55,
+              "pnl": 4.48,
+              "pnl_pct": 0.64,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-04 08:00:00",
+              "exit_time": "2026-01-05 12:00:00",
+              "direction": "多",
+              "entry_price": 91353.95,
+              "exit_price": 93506.11,
+              "pnl": 23.41,
+              "pnl_pct": 2.25,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-21 12:00:00",
+              "exit_time": "2026-01-21 16:00:00",
+              "direction": "空",
+              "entry_price": 90234.36,
+              "exit_price": 89343.26,
+              "pnl": 6.22,
+              "pnl_pct": 0.89,
+              "exit_reason": "stop_loss"
+            }
+          ]
+        },
+        "移动止损策略": {
+          "performance": {
+            "total_return_pct": 3.74,
+            "annual_return_pct": 17.47,
+            "max_drawdown_pct": 8.1,
+            "sharpe_ratio": 0.52,
+            "sortino_ratio": 0.36,
+            "calmar_ratio": 2.16,
+            "profit_factor": 1.28
+          },
+          "trades": {
+            "total_trades": 20,
+            "winning_trades": 9,
+            "losing_trades": 11,
+            "win_rate_pct": 45.0,
+            "avg_win": 26.33,
+            "avg_loss": -16.78,
+            "profit_loss_ratio": 1.57,
+            "expectancy": 2.62
+          },
+          "capital": {
+            "initial": 1000,
+            "final": 1037.45,
+            "total_return": 37.45
+          },
+          "trades_detail": [
+            {
+              "entry_time": "2025-03-24 20:00:00",
+              "exit_time": "2025-03-28 04:00:00",
+              "direction": "多",
+              "entry_price": 87540.45,
+              "exit_price": 85122.81,
+              "pnl": -21.46,
+              "pnl_pct": -2.86,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-03-30 16:00:00",
+              "exit_time": "2025-04-01 12:00:00",
+              "direction": "空",
+              "entry_price": 82508.63,
+              "exit_price": 84864.16,
+              "pnl": -21.02,
+              "pnl_pct": -2.96,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-04-13 04:00:00",
+              "exit_time": "2025-04-22 12:00:00",
+              "direction": "多",
+              "entry_price": 84460.21,
+              "exit_price": 89747.81,
+              "pnl": 25.88,
+              "pnl_pct": 6.15,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-05-30 16:00:00",
+              "exit_time": "2025-06-09 12:00:00",
+              "direction": "空",
+              "entry_price": 104584.58,
+              "exit_price": 108088.54,
+              "pnl": -20.88,
+              "pnl_pct": -3.45,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-06-10 04:00:00",
+              "exit_time": "2025-06-12 12:00:00",
+              "direction": "多",
+              "entry_price": 109266.61,
+              "exit_price": 106669.98,
+              "pnl": -20.85,
+              "pnl_pct": -2.47,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-06-17 16:00:00",
+              "exit_time": "2025-06-22 12:00:00",
+              "direction": "空",
+              "entry_price": 104631.76,
+              "exit_price": 100266.05,
+              "pnl": 25.1,
+              "pnl_pct": 4.08,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-06-25 12:00:00",
+              "exit_time": "2025-07-09 16:00:00",
+              "direction": "多",
+              "entry_price": 107088.12,
+              "exit_price": 111534.51,
+              "pnl": 25.64,
+              "pnl_pct": 4.05,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-08-01 00:00:00",
+              "exit_time": "2025-08-09 04:00:00",
+              "direction": "空",
+              "entry_price": 115588.08,
+              "exit_price": 116806.47,
+              "pnl": -9.03,
+              "pnl_pct": -1.16,
+              "exit_reason": "signal"
+            },
+            {
+              "entry_time": "2025-08-09 04:00:00",
+              "exit_time": "2025-08-11 00:00:00",
+              "direction": "多",
+              "entry_price": 116806.47,
+              "exit_price": 119927.24,
+              "pnl": 25.13,
+              "pnl_pct": 2.57,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-08-18 00:00:00",
+              "exit_time": "2025-08-22 12:00:00",
+              "direction": "空",
+              "entry_price": 115264.64,
+              "exit_price": 111820.31,
+              "pnl": 26.3,
+              "pnl_pct": 2.89,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-09-11 12:00:00",
+              "exit_time": "2025-09-18 00:00:00",
+              "direction": "多",
+              "entry_price": 114243.09,
+              "exit_price": 117326.02,
+              "pnl": 26.66,
+              "pnl_pct": 2.6,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-09-23 04:00:00",
+              "exit_time": "2025-09-25 16:00:00",
+              "direction": "空",
+              "entry_price": 113037.35,
+              "exit_price": 109953.02,
+              "pnl": 27.46,
+              "pnl_pct": 2.63,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-10-27 12:00:00",
+              "exit_time": "2025-10-29 00:00:00",
+              "direction": "多",
+              "entry_price": 115017.28,
+              "exit_price": 112081.04,
+              "pnl": -23.3,
+              "pnl_pct": -2.65,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-10-31 08:00:00",
+              "exit_time": "2025-11-04 04:00:00",
+              "direction": "空",
+              "entry_price": 110373.89,
+              "exit_price": 104791.93,
+              "pnl": 28.46,
+              "pnl_pct": 4.96,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2025-12-03 12:00:00",
+              "exit_time": "2025-12-05 16:00:00",
+              "direction": "多",
+              "entry_price": 92426.09,
+              "exit_price": 88584.99,
+              "pnl": -22.69,
+              "pnl_pct": -4.25,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-07 12:00:00",
+              "exit_time": "2025-12-07 16:00:00",
+              "direction": "空",
+              "entry_price": 89510.02,
+              "exit_price": 89491.88,
+              "pnl": -0.56,
+              "pnl_pct": -0.08,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-10 08:00:00",
+              "exit_time": "2025-12-14 08:00:00",
+              "direction": "多",
+              "entry_price": 92177.07,
+              "exit_price": 88828.16,
+              "pnl": -22.33,
+              "pnl_pct": -3.73,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2025-12-16 04:00:00",
+              "exit_time": "2025-12-17 12:00:00",
+              "direction": "空",
+              "entry_price": 85966.3,
+              "exit_price": 89059.37,
+              "pnl": -21.94,
+              "pnl_pct": -3.7,
+              "exit_reason": "stop_loss"
+            },
+            {
+              "entry_time": "2026-01-04 08:00:00",
+              "exit_time": "2026-01-05 12:00:00",
+              "direction": "多",
+              "entry_price": 91353.95,
+              "exit_price": 93880.02,
+              "pnl": 26.34,
+              "pnl_pct": 2.66,
+              "exit_reason": "take_profit"
+            },
+            {
+              "entry_time": "2026-01-21 12:00:00",
+              "exit_time": "2026-01-21 16:00:00",
+              "direction": "空",
+              "entry_price": 90234.36,
+              "exit_price": 90212.53,
+              "pnl": -0.51,
+              "pnl_pct": -0.08,
+              "exit_reason": "stop_loss"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
